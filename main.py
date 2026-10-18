@@ -86,7 +86,7 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             _= mlflow.run(
-f"{config['main']['components_repository']}/train_val_test_split",
+            f"{config['main']['components_repository']}/train_val_test_split",
                 entry_point="main",
                 env_manager="conda",
                 parameters={
@@ -112,7 +112,20 @@ f"{config['main']['components_repository']}/train_val_test_split",
             # Implement here #
             ##################
 
-            pass
+            _ = mlflow.run(
+                os.path.join("src", "train_random_forest"),
+                entry_point="main",
+                env_manager="conda",
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "val_size": config["modeling"]["val_size"],
+                    "random_seed": config["modeling"]["random_seed"],
+                    "stratify_by": config["modeling"]["stratify_by"],
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "output_artifact": "random_forest_export"
+                }
+            )
 
         if "test_regression_model" in active_steps:
 
