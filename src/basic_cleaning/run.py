@@ -13,6 +13,14 @@ logger = logging.getLogger()
 
 # DO NOT MODIFY
 def go(args):
+    """
+    Clean the Airbnb dataset by removing listings outside
+    the specified price and geographic boundaries.
+
+    Args:
+        args: Command-line arguments containing input and
+            output artifact information and price limits.
+    """
 
     run = wandb.init(job_type="basic_cleaning")
     run.config.update(args)

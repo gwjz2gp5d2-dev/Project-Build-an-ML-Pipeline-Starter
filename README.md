@@ -6,6 +6,14 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+
+## Project Links
+
+- **Weights & Biases (W&B):** [NYC Airbnb Project](https://forge.coreweave.com/wandb/jhicks88-western-governors-university/nyc_airbnb)
+- **GitHub Repository:** [Project-Build-an-ML-Pipeline-Starter](https://github.com/gwjz2gp5d2-dev/Project-Build-an-ML-Pipeline-Starter)
+- **Latest Release:** [Version 1.0.1](https://github.com/gwjz2gp5d2-dev/Project-Build-an-ML-Pipeline-Starter/releases/tag/1.0.1)
+
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
