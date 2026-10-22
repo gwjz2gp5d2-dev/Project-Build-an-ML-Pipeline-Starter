@@ -11,7 +11,7 @@ In this project you will build such a pipeline.
 
 - **Weights & Biases (W&B):** [NYC Airbnb Project](https://forge.coreweave.com/wandb/jhicks88-western-governors-university/nyc_airbnb)
 - **GitHub Repository:** [Project-Build-an-ML-Pipeline-Starter](https://github.com/gwjz2gp5d2-dev/Project-Build-an-ML-Pipeline-Starter)
-- **Latest Release:** [Version 1.0.1](https://github.com/gwjz2gp5d2-dev/Project-Build-an-ML-Pipeline-Starter/releases/tag/1.0.1)
+- **Latest Release:** [Version 1.0.2](https://github.com/gwjz2gp5d2-dev/Project-Build-an-ML-Pipeline-Starter/releases/tag/1.0.2)
 
 
 ## Table of contents
